@@ -43,6 +43,52 @@ int linearSearch(int arr[],int n,int key){
   }
   return -1;
 }
+
+
+
+
+// void swapAlternate(int *arr, int size)
+// {
+//    for(int i=0;i<size;i+=2){
+//        if(i+1<size){
+//            swap(arr[i],arr[i+1]);
+//        }
+//    }
+// }
+
+
+// class Solution
+// {
+//     private:
+//     int getMax(int A[],int n){
+//         int maxi=INT_MIN;
+//         for(int i=0;i<n;i++){
+//             if(A[i]>maxi){
+//                 maxi=A[i];
+//             }
+//         }
+//         return maxi;
+//     }
+//     int getMin(int A[],int n){
+//         int mini=INT_MAX;
+//         for(int i=0;i<n;i++){
+//             if(A[i]<mini){
+//                 mini=A[i];
+//             }
+//         }
+//         return mini;
+//     }
+//    public:
+//     int findSum(int A[], int N)
+//     {
+//     	int ans=getMax(A,N)+getMin(A,N);
+//     	return ans;
+//     }
+
+// };
+
+
+
 int main() {
 int arr[]={10,11,12,13,14};
 int arr1[]={15,16,17,18};
